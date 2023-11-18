@@ -7,5 +7,6 @@ public class Main {
         Pracownik pracownik2 = new Pracownik("Anna", "Kowalska", "IT", 7000, Oddzial.KRAKOW);
         pracownik.wyswietlDanePracownika();
         pracownik2.wyswietlDanePracownika();
+
     }
 }

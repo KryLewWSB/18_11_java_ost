@@ -1,6 +1,6 @@
 package org.example;
 
-public class Pracownik {
+public class Pracownik implements DanePracownik{
     private String imie;
     private String nazwisko;
     private String dzial;
@@ -14,6 +14,7 @@ public class Pracownik {
         this.wyplata = wyplata;
         this.oddzial = odzial;
     }
+    @Override
     public void wyswietlDanePracownika(){
         System.out.println( "Imię: " + this.imie +
                 "\nNazwisko: " + this.nazwisko +
