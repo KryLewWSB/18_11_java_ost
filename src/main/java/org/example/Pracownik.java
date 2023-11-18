@@ -16,9 +16,11 @@ public class Pracownik implements DanePracownik{
     }
     @Override
     public void wyswietlDanePracownika(){
+        System.out.println("________________________");
         System.out.println( "Imię: " + this.imie +
                 "\nNazwisko: " + this.nazwisko +
                 "\nDział: " + this.dzial +
                 "\nWynagrodzenie: " + this.wyplata);
+        System.out.println("________________________");
     }
 }

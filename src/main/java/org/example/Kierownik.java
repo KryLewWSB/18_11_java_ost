@@ -8,10 +8,12 @@ public class Kierownik extends Pracownik {
     }
     @Override
     public void wyswietlDanePracownika(){
+        System.out.println("________________________");
         System.out.println( "Imię: " + this.imie +
                 "\nNazwisko: " + this.nazwisko +
                 "\nDział: " + this.dzial +
                 "\nWynagrodzenie: " + this.wyplata +
                 "\nPremia Kierownicza: " + this.premiaKierownicza);
+        System.out.println("________________________");
     }
 }
